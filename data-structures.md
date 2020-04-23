@@ -40,33 +40,38 @@ for (let entry of arr) {
 
 ## Working with Arrays
 
-**Add an item to the end of an Array**
+## Add an item to the end of an Array
 ```javascript
 arr.push('item');
 ```
 
-**Remove first item from an Array**
+### Remove first item from an Array
 ```javascript
 arr.shift()
 ```
 
-**Add one or more elements to the start of an Array**
+### Add one or more elements to the start of an Array
 ```javascript
 arr.unshift('item1', 'item2')
 ```
 
-**Removes last item from an Array**
+### Removes last item from an Array
 ```javascript
 arr.pop()
 ```
 
-**Add or remove an item in an Array** \
-add item to array on position 1
+### Add or remove an item in an Array**
+```javascript
+arr.splice('spot in array', 'amount to remove', 'item to add')
+```
+
+**Examples**
+Add item to array on position 1
 ```javascript
 arr.splice(1, 0, 'item')
 ```
 
-replace item 2 in the array with  item from the array
+Replace item 2 in the array with a rocket
 ```javascript
 arr.splice(2, 1, 🚀)
 ```
