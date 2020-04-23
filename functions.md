@@ -1,7 +1,7 @@
 # Functions
 
 
-##Function
+## Function
 
 **A simple function using parameter x**
 
@@ -28,7 +28,7 @@ console.log(chicken() + " came first.");
 ```
 
 
-**Rest parameters**
+**Rest parameters** \
 when the number of parapeters is unknown
 ```javascript
 function max(...numbers) {
@@ -78,26 +78,3 @@ const horn = () => {
 ```javascript
 let status = (age >= 18) ? true : false;
 ```
-
-
-
-for loop
-for(i of cats) {
-  console.log(i);
-}
-
-
-
-Workign with arrays
-
-pushes to the end of the array
-pets.push('cat');
-
-pets.pop()
-
-pets.shift()
-
-pets.unshift()
-
-pets.splice()
-

@@ -47,9 +47,9 @@ let list = {
 
 ## Basic Math
 
-* + add
-* - minus
-* * times
+* \+ add
+* \- minus
+* \* times
 * / divide
 * % modulo (remainder of a division)
 * ++ adds one
@@ -60,12 +60,11 @@ let list = {
 * && and
 * || or
 * == equal
-* > greater than
-* >= greater than or equal
+* \> greater than
+* \>= greater than or equal
 * < smaller than
 * <= smaller than or equal
 * != not equal
-* 
 * === equal to (also data type)
 * !== not equal to (also data type)
 
