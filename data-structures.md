@@ -68,5 +68,5 @@ arr.splice(1, 0, 'item')
 
 replace item 2 in the array with  item from the array
 ```javascript
-arr.splice(2, 1, :rocket: )
+arr.splice(2, 1, 🚀)
 ```
